@@ -8,7 +8,7 @@
     margin-right: 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
 }
@@ -19,9 +19,10 @@ a {
     border: black;
     padding: 10px;
 }
-nav {
+header nav {
     margin-top: 10px;
     margin-bottom: 200px;
+    
 }
 
 body {
@@ -46,12 +47,11 @@ body {
 
 #search {
     font-size: 16px;
-    height: 38px;
+    height: 42px;
     width: 460px;
     border-radius: 25px;
-    padding: 3px;
     border: 1px solid lightgray;
-    padding-left: 50px;
+    padding-left: 45px;
 }
 
 #mag {
@@ -62,4 +62,58 @@ body {
     right: 500px;
 }
 
+#mic {
+    position: relative;
+    width: 15px;
+    height: 20px;
+    top: 5px;
+    right: 75px;
+}
 
+#button1 {
+    text-align: center;
+    border: hidden;
+    height: 36px;
+    width: 120px;
+    margin-top: 30px;
+    margin-right: 10px;
+    position: relative;
+    left: 43%;
+}
+
+#button2 {
+    border: hidden;
+    height: 36px;
+    width: 140px;
+    position: relative;
+    left: 43%;
+}
+
+#other-lang {
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#other-lang a {
+    color: darkblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgray;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 10px;
+}
