@@ -17,12 +17,37 @@ a {
     border: black;
     padding: 10px;
 }
+nav {
+    margin-bottom: 200px;
+}
+
 main {
     clear: both;
 }
 
-span {
+/* span {
     font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+} */
+
+#google {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.searchbar {
+    display: block;
+    margin: auto;
+
+}
+
+#search {
+    height: 30px;
+    width: 500px;
+}
+
+#mag {
+    position: relative;
 }
