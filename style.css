@@ -1,9 +1,11 @@
 .header-left {
     float: left;
+    margin-left: 10px;
 }
 
 .header-right {
     float: right;
+    margin-right: 10px;
 }
 
 a {
@@ -18,18 +20,9 @@ a {
     padding: 10px;
 }
 nav {
+    margin-top: 10px;
     margin-bottom: 200px;
 }
-
-#google {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-}
-
-
 
 body {
     font-family: Arial, sans-serif;
@@ -38,29 +31,35 @@ body {
     white-space: nowrap;
 }
 
+#google {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .searchbar {
     text-align: center;
     padding-top: 20px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 #search {
-    text-align: left;
-    margin: auto;
-    margin-top: 20px;
-    height: 40px;
-    width: 500px;
-    border-radius: 30px;
+    font-size: 16px;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    padding: 3px;
     border: 1px solid lightgray;
     padding-left: 50px;
 }
 
 #mag {
+    position: relative;
     height: 30px;
     width: 30px;
-    position: relative;
     top: 10px;
-    right: 250px;
+    right: 500px;
 }
 
 
