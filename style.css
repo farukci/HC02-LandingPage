@@ -1,0 +1,19 @@
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#signin {
+    color:white;
+    background-color: blue;
+    border: black;
+    padding: 10px;
+}
