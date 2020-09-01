@@ -32,13 +32,13 @@ header nav a:hover {
     width: 70px;
 }
 header nav {
-    margin: 15px 15px 200px;    
+    margin: 15px 50px 200px 15px;    
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    width: 100%;
+    width: 102%;
     white-space: nowrap;
 }
 
@@ -62,6 +62,11 @@ body {
     border-radius: 25px;
     border: 1px solid lightgray;
     padding-left: 45px;
+    outline: none;
+}
+
+#search:hover {
+    box-shadow: 2px 2px 4px lightgray;
 }
 
 #mag {
@@ -103,6 +108,12 @@ body {
     border-radius: 3px;
 }
 
+#button1:hover, #button2:hover {
+    border: 1px solid lightgray;
+    color: black;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
 #other-lang {
     text-align: center;
     font-size: 13px;
@@ -120,7 +131,7 @@ footer {
     background-color: #F2F2F2;
     color: dimgray;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 14px;
 }
 
@@ -142,13 +153,19 @@ footer nav a:first-child {
     padding-left: 0px;
 }
 
+footer nav a:hover {
+    text-decoration: underline;
+}
+
 .footer-left {
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .footer-right {
     float: right;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 50px;
 }
+
+
